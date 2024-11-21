@@ -33,7 +33,7 @@ def keep_alive():
     while True:
         try:
             # Apne Render app ka URL daal kar ping karein
-            requests.get("increased-ileane-xflwan-f16dbfbf.koyeb.app/")
+            requests.get("payable-issy-userbot123-649a6edf.koyeb.app/")
         except Exception as e:
             print(f"Ping error: {e}")
         # Har 5 minute mein ping karein
