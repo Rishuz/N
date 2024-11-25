@@ -19,7 +19,12 @@ from config import BANNED_USERS
 # Flask app initialize kar rahe hain
 flask_app = Flask(__name__)
 
-# Flask app ka ek basic route
+# Health check endpoint for Koyeb
+@flask_app.route('/health')
+def health_check():
+    return {"status": "healthy"}, 200
+
+# Home route
 @flask_app.route('/')
 def home():
     return "Flask app running on port 8000"
@@ -32,8 +37,8 @@ def run_flask():
 def keep_alive():
     while True:
         try:
-            # Apne Render app ka URL daal kar ping karein
-            requests.get("payable-issy-userbot123-649a6edf.koyeb.app/")
+            # Ping the health endpoint of the Flask app
+            requests.get("http://0.0.0.0:8000/health")
         except Exception as e:
             print(f"Ping error: {e}")
         # Har 5 minute mein ping karein
@@ -61,7 +66,7 @@ async def init():
     # Import all plugins dynamically
     for all_module in ALL_MODULES:
         importlib.import_module("BABYMUSIC.plugins" + all_module)
-    
+
     LOGGER("BABYMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
 
     # Start userbot and BABY
