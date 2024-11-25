@@ -1,0 +1,10 @@
+checks:
+  - name: http_health_check
+    type: http
+    http:
+      url: "/health"
+      method: GET
+      expected_status: 200
+      timeout: 3s
+    interval: 10s
+    retries: 3
