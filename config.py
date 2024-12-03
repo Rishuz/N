@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "7638229482:AAHmvpFaVQzInvrGsBMlotrHmpnzQwwPhAk")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","SHIVANSHDEVS")
+OWNER_USERNAME = getenv("OWNER_USERNAME","rishu1286")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "InflexMusicRobot")
 # --------------------------------------------------------
@@ -56,7 +56,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/XFLSWAN/SPOTIFY_MUSIC",
+    "https://github.com/Rishuz/N",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -70,10 +70,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SHIVANSH474")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
-SOURCE = getenv("SOURCE", "https://github.com/itzshukla/STRANGER-MUSIC")
-CHAT = getenv("CHAT", "https://t.me/STRANGERXWORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ur_rishu_143")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ur_support07")
+SOURCE = getenv("SOURCE", "https://t.me/ur_rishu_143")
+CHAT = getenv("CHAT", "https://t.me/ur_support07")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
