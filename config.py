@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7638229482:AAHmvpFaVQzInvrGsBMlotrHmpnzQwwPhAk"
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","rishu1286")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "InflexMusicRobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Vip_music_vc_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "˹ ɪɴғʟᴇx ꭙ мυѕιᴄ ˼")
 # ---------------------------------------------------------
@@ -28,7 +28,7 @@ API_KEY = "abc921ff654bcf7b3faff8f775d781d8d27d32bfd02d6692eea30249ba781c8b"  # 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002018556839"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001992970818"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "6762113050"))
+OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
